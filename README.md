@@ -1,10 +1,10 @@
-📋 Dashboard de Tarefas — Lista & Kanban
+## 📋 Dashboard de Tarefas — Lista & Kanban
 
 Aplicação Full Stack para gerenciamento de tarefas, com visualização em lista e Kanban, Drag & Drop persistente, filtros, busca, feedback visual e API própria documentada.
 
 Projeto desenvolvido com foco em boas práticas, arquitetura limpa, experiência do usuário e integração real Frontend ↔ Backend, ideal para portfólio de Desenvolvedor Full Stack Júnior.
 
-🚀 Demonstração (Deploy)
+## 🚀 Demonstração (Deploy)
 
 🌐 Frontend (Vercel)
 👉 https://project2-dashboard-api.vercel.app
@@ -15,8 +15,8 @@ Projeto desenvolvido com foco em boas práticas, arquitetura limpa, experiência
 📘 Swagger / Docs da API
 👉 https://project2-dashboardapi.onrender.com/docs/
 
-🧠 Funcionalidades
-✅ Backend
+## 🧠 Funcionalidades
+## ✅ Backend
 
 CRUD completo de tarefas
 
@@ -40,7 +40,7 @@ Banco de dados SQLite
 
 Health check (/health)
 
-✅ Frontend
+## ✅ Frontend
 
 Dashboard moderno
 
@@ -66,8 +66,9 @@ Toasts de sucesso/erro
 
 Integração total com API REST
 
-🛠️ Tecnologias Utilizadas
-Backend
+## 🛠️ Tecnologias Utilizadas
+
+## Backend
 
 Node.js
 
@@ -83,7 +84,7 @@ CORS
 
 Dotenv
 
-Frontend
+## Frontend
 
 React
 
@@ -118,19 +119,21 @@ Projeto2/
 │
 └── README.md
 
-▶️ Como rodar o projeto localmente
-Pré-requisitos
+## ▶️ Como rodar o projeto localmente
+## Pré-requisitos
 
 Node.js (v18+ recomendado)
 
 npm
 
 🔧 Backend
+
 cd backend
 npm install
 npx prisma generate
 npx prisma migrate dev
 npm run dev
+
 
 
 API disponível em:
@@ -146,7 +149,7 @@ Tarefas: /tasks
 
 Docs: /docs
 
-🎨 Frontend
+## 🎨 Frontend
 cd frontend
 npm install
 npm run dev
@@ -156,7 +159,7 @@ Aplicação disponível em:
 
 http://localhost:5173
 
-🔄 Variáveis de Ambiente
+## 🔄 Variáveis de Ambiente
 Backend (.env)
 PORT=5000
 NODE_ENV=development
@@ -189,7 +192,7 @@ Environment Variable:
 
 VITE_API_URL=https://project2-dashboardapi.onrender.com
 
-📌 Possíveis Melhorias Futuras
+## 📌 Possíveis Melhorias Futuras
 
 Autenticação e usuários
 
